@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mysmall.myclocktest.MyClockActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <com.example.myview.weidge.MyClock
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="600dp" />
+
+            <com.example.myview.weidge.MyClock2
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="600dp" />
+            <ImageView
+                android:id="@+id/iv_qie1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qie"
+                android:onClick="rotateyAnimRun1"/>
+            <ImageView
+                android:id="@+id/iv_qie2"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qie"
+                android:onClick="rotateyAnimRun2"/>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="500dp">
+              <ImageView
+                  android:id="@+id/iv_qie3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/qie"/>
+              <LinearLayout
+                  android:gravity="center_horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:orientation="horizontal">
+                  <Button
+                      android:id="@+id/btn_shuzhi"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="竖直"/>
+                  <Button
+                      android:id="@+id/btn_paowu"
+                      android:layout_marginLeft="20dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="抛物"/>
+              </LinearLayout>
+          </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
