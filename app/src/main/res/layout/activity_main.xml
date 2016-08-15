@@ -13,4 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="我是1.1分支上的代码" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新建了1.2_dev分支以后，重新回到1.1_dev分支上，然后修改的内容" />
 </RelativeLayout>
