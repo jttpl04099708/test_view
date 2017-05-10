@@ -16,9 +16,5 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="新建了1.2_dev分支以后，重新回到1.1_dev分支上，然后将1.1上的修改，merge到1.2上" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="分支1.1上增加editText，然后使用git命令 merge到1.2分支上" />
+        android:text="本editText是从分支1.1_dev上merge过来的" />
 </RelativeLayout>
