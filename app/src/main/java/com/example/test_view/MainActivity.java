@@ -10,7 +10,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("sssss","1.1.1.1");
+        Log.e("sssss", "1.1.1.1");
         Log.e("ssssss","1.2.2.2");
+        Log.e("ssssss","1.2");
     }
 }
